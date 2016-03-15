@@ -1,0 +1,350 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.428571429;
+    color: #3c5b68;
+    background-color: #FFF;
+    background-image: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+figure {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+img {
+    border: 0;
+}
+
+figcaption {
+    display: block;
+}
+
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #FFF;
+    border-bottom-color: #F7941E;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+}
+
+.owl-carousel .item .headline-title {
+    background: rgba(0, 0, 0, 0.31);
+    margin-top: -50px;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+}
+
+.owl-carousel .item .headline-title span{
+    color: white;
+    font-weight: bold;
+}
+
+/* post artikel */
+.content{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+article.post-box{
+    border: 1px solid #FAA21A;
+    -webkit-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+article.post-box .post-body .post-top-share {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999;
+    padding: 0px 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.4);
+}
+
+article.post-box:hover .post-top-share {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+article.post-box .post-body .post-top-share i.share-activator-icon {
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 10px;
+    color: #fff;
+    padding-right: 3px;
+}
+
+article.post-box .post-body .post-top-share span.share-activator-label {
+    line-height: 24px;
+    vertical-align: middle;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 10px;
+    border-left: 1px solid #555;
+}
+
+article.post-box .post-body .post-top-share .os_social-head-w {
+    display: none;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+article.post-box .post-body {
+    position: relative;
+}
+
+article.post-box .post-meta {
+    height:50px;
+    background-color: #F7C881;
+    border-radius: 0px 0px 6px 6px;
+    border-top: 1px solid #F7941E;
+}
+
+article.post-box ul.post-categories {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+article.post-box ul.post-categories li a {
+    display: block;
+    padding: 2px 5px;
+    background-color: #d4edfc;
+    font-size: 11px;
+    line-height: 14px;
+    color: #3893c1;
+    border: 1px solid #75b9dd;
+    border-radius: 4px;
+}
+
+article.post-box .meta-date, article.post-box .meta-view-count {
+    padding: 15px 0px 15px 20px;
+    float: left;
+    line-height: 20px;
+}
+
+article.post-box .meta-date i, article.post-box .meta-view-count i {
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+article.post-box .meta-date time,  article.post-box .meta-date span,  article.post-box .meta-view-count time,  article.post-box .meta-view-count span {
+    font-size: 11px;
+}
+
+article.post-box .meta-share,  article.post-box .meta-like {
+    padding: 17px 20px;
+    float: right;
+    border-left: 1px solid #F7C881;
+    border-bottom: 1px solid #FAA21A;
+    background-color: #F7C881;
+    border-radius: 0px 0px 6px 0px;
+    line-height: 11px;
+    min-height: 50px;
+}
+
+article.post-box .meta-share i,  article.post-box .meta-like i {
+    line-height: 20px;
+    color: #a9c9e2;
+    vertical-align: middle;
+}
+
+article.post-box .post-content-body {
+    padding: 30px;
+    min-height:200px;
+}
+
+article.post-box .post-media-body + .post-content-body {
+    padding-top: 15px;
+}
+
+
+.article-box{
+    padding:5px;
+}
+
+.menu-position-left .site-footer {
+    text-align: right;
+}
+
+.site-footer {
+    padding: 30px;
+    border-top: 1px solid #d1dbe1;
+    margin-top: 40px;
+    text-align: right;
+    color: #3c5b68;
+}
+
+
+/* singel post */
+
+.content-single-post{
+    max-width: 740px!important;
+    margin-top: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.postMeta-previewHeader {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.block-postMeta {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    line-height: 1.6;
+    color: rgba(0,0,0,.3);
+}
+
+.u-floatLeft {
+    float: left!important;
+}
+
+.postMetaInline-avatar {
+    display: table-cell;
+}
+
+.avatar {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.avatar-image {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%;
+    background: #f0f0f0;
+}
+
+.postMetaInline-feedSummary {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1.4;
+    padding-left: 10px;
+    text-rendering: auto;
+}
+
+.link-accent {
+    color: #00ab6b;
+    text-decoration: none;
+}
+
+.postMetaInline {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(0,0,0,.3);
+}
+
+.postMetaInline--supplemental {
+    display: block;
+    color: rgba(0,0,0,.44);
+    font-size: 12px;
+    line-height: 1.1;
+}
+
+.postMetaInline--supplemental {
+    line-height: inherit;
+}
+
+.block-postMeta .postMetaInline {
+    vertical-align: baseline;
+    text-rendering: auto;
+}
+
+.block-postMeta .postMetaInline, .block-postMeta .postMetaInline .button {
+    color: rgba(0,0,0,.44);
+}
+
+.block-postMeta.postMeta-previewHeader .postMetaInline {
+    color: rgba(0,0,0,.44);
+}
+
+.middotDivider {
+    padding-right: .45em;
+    padding-left: .45em;
+}
+
+
+/* profile images width */
+.u-xs-size32x32 {
+    width: 32px!important;
+    height: 32px!important;
+}
+
+/*Single Post Title*/
+
+.singlePost-title{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    margin-left: -2.25px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+}
+
+/*Single Post Content*/
+.singlePost-content {
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+
+/* Image Header Post */
+.singlePost-header-images .fullimage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
