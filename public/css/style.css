@@ -40,6 +40,9 @@ figcaption {
 
 .navbar-default {
     background-color: #FFF;
+    -webkit-box-shadow: 0 10px 5px #F7941E;
+    -moz-box-shadow: 0 10px 5px #F7941E;
+    box-shadow: 0 4px 5px #F7941E;
     border-bottom-color: #F7941E;
 }
 
