@@ -28,6 +28,11 @@ figcaption {
     display: block;
 }
 
+.row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
 
 .navbar{
     margin-bottom: 0px;
@@ -377,4 +382,15 @@ article.post-box .post-media-body + .post-content-body {
     border: none;
     color: rgba(0,0,0,.6);
     background: rgba(0,0,0,.05);
+}
+
+/* single post content actions */
+.floatRight{
+    float:right!important;
+}
+.actions-postActions, .postActionsBar-content {
+    box-sizing: border-box;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 52px;
 }
